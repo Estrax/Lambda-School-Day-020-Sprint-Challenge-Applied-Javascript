@@ -39,6 +39,8 @@ Typical event is an object based on the `Event` interface, representing an actio
 
 3. What is an event listener?
 
+Event listener is a function mapping 1-to-1 that waits for an event to occur. Listener reacts to the input by calling the event's handler. It is being used to decouple the event detection code from the event handling code, so with changing or adding new events handling code, it does not affect the other events handling code. Because it usually has no information about the event handlers implementation, the event raiser notifies the global mediator (the Event instance).
+
 4. Why would we convert a NodeList into an Array?
 
 5. What is a component?
