@@ -32,6 +32,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+DOM is a Document Object Model - the API that treats the HTML (and XML) document as a tree structure with each node being an object representing a part of the document. DOM is live and can updated in the browser to display changes without the need to refresh the page.
+
 2. What is an event?
 
 3. What is an event listener?
