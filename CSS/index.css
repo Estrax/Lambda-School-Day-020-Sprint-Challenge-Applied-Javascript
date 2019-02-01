@@ -300,5 +300,13 @@ body {
 }
 .carousel img {
   width: 100%;
-  display: none;
+  left: -1000px;
+}
+.carousel .default {
+  width: 0;
+  opacity: 0;
+}
+.carousel .show {
+  width: 100%;
+  opacity: 1;
 }
