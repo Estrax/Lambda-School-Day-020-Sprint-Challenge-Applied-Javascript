@@ -55,13 +55,6 @@ class Slide {
 
     toggle(){
         this.element.classList.toggle('show');
-
-        if(this.element.classList.contains('show')){
-            TweenMax.to(this.element, .5, {left: 0});
-        }else{
-            TweenMax.to(this.element, .5, {left: -1000});
-        };
-
     }
 }
 

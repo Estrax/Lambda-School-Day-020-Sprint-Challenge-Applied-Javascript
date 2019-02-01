@@ -38,14 +38,16 @@
   img {
     .width-100();
     // display: none;
-  }
-  .default {
-    width: 0;
-    opacity: 0;
-    transition: .5s;
-  }
-  .show {
-    width: 100%;
-    opacity: 1;
+  
+    &.default {
+      width: 0;
+      opacity: 0;
+      transition: .5s;
+    }
+    
+    &.show {
+      width: 100%;
+      opacity: 1;
+    }
   }
 }
