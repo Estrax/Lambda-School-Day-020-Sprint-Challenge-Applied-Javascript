@@ -47,6 +47,8 @@ We can convert NodeList into an Array if we want to use the methods that NodeLis
 
 5. What is a component?
 
+A component is a small and re-usable piece of code containing the code handling the logic and interface elements (API/UI). It allows to keep the code concise and less-redundant with the lower error rate at the same time.
+
 ### Git Set up
 
 * [ ] Fork the project into your GitHub user account
